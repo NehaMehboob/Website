@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import React from "react";
 import { IoMdMenu } from "react-icons/io";
 
@@ -9,7 +9,7 @@ function Header() {
         <header className="  flex justify-between items-center gap-3 font-serif text-blue-800" >
             
             <div>
-            <h1 > <img src="./school.jpg" height={50} width={150}></img></h1>
+            <h1 > <Image src="./school.jpg" alt="header" height={50} width={150}/></h1>
             <h2 className="font-bold text-2xl">The Steam School</h2>
      </div>
      

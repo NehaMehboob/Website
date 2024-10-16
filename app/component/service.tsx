@@ -6,8 +6,6 @@ import { GiHighKick } from "react-icons/gi";
 import { IoMdBeaker } from "react-icons/io";
 import { RiComputerLine } from "react-icons/ri";
 import { motion } from "framer-motion";
-
-
 const ServiceData = [
     {
         id:1,
@@ -60,13 +58,10 @@ return {
             ease: "easeInOut",
         }
        }
-}
-}
-
+};
+};
 export default function Service  ()  {
-
-
-    return(
+return(
         <section className="bg-white">
             <div className="container pb-14 pt-16">
                 <h1 className="text-4xl font-bold text-left pb-10">Services We Provide</h1>
@@ -75,8 +70,7 @@ export default function Service  ()  {
                  {ServiceData.map((Service)=> (
                     <div>
                 {Service.icon}
-                        
-                        <motion.div
+                                        <motion.div
                         variants={slideLeft(Service.delay)}
                         initial="initial"
                         whileInView={"animate"}
@@ -86,8 +80,7 @@ export default function Service  ()  {
                         <h1 className="text-lg font-semibold text-center px-3">{Service.title}</h1>
                     </motion.div>
                     </div>
-
-                    ))};
+    ))};
                   
                  </div>
         </section>
