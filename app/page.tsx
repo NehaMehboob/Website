@@ -1,5 +1,5 @@
-
 import Image from "next/image";
+import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Service from "./component/service";
 import Footer from "./component/footer";
@@ -22,7 +22,7 @@ export default function Home() {
   <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-900 flex items-center gap-2 group">Get Started <IoIosArrowRoundForward className="text-xl group-hover:translate-x-2 grup-hover:-rotate-45 duration-300"/></button>
 </div>
 <div className="flex justify-end py-32">
-  <img  src= "./logo.jpg" alt="Hero" className=" px-11 -mt-72 flex justify-center"></img>
+  <Image  src= "/logo.jpg" alt="Hero" width={50} height={50} className=" px-11 -mt-72 flex justify-center"/>
 </div>
 </section>
 <Service />

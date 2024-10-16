@@ -1,6 +1,6 @@
 "use client"
 import React from "react";
-import { FaInstagram, FaWhatsapp, FaFacebook } from "react-icons/fa6";
+import {  FaWhatsapp, FaFacebook } from "react-icons/fa6";
 import { TbWorldWww} from "react-icons/tb";
 import { motion } from "framer-motion";
 

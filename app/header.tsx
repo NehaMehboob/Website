@@ -1,7 +1,7 @@
-import { Main } from "next/document";
+
 import React from "react";
 import { IoMdMenu } from "react-icons/io";
-import { MdMenu } from "react-icons/md";
+
 
 
 function Header() {

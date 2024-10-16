@@ -6,7 +6,7 @@ import { GiHighKick } from "react-icons/gi";
 import { IoMdBeaker } from "react-icons/io";
 import { RiComputerLine } from "react-icons/ri";
 import { motion } from "framer-motion";
-import { delay } from "framer-motion/dom";
+
 
 const ServiceData = [
     {
